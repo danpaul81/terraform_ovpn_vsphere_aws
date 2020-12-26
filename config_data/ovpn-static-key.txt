@@ -1,0 +1,21 @@
+#
+# 2048 bit OpenVPN static key
+#
+-----BEGIN OpenVPN Static key V1-----
+d8b571d878de9cd47762260ebc3c8216
+639e3a5861cbdda0fc4eedf58c52218b
+f35890bf1ea9c0fc66854e832a983149
+143d1bdfeccddbdbc76f04a7af3321e8
+457ee1a2e9b915b2fff91697dadc4090
+6c9ab7c88622e95f080019f381ced823
+54885fd0aa6f8fb010ed39290cc7d4c8
+c52f097c5c437b062736ba2fd8cf928b
+689ee73c65e0fb3dc4ce81bc2137b426
+ba4f9dbed2a21edba1c2fb34efda74d9
+a0ee6e1df2f929bae4f994becafaae01
+cbd084d88f214044bdbcea71d23b37b3
+627bb9ba3b76fa8a9ead8f7096e13eb4
+a7bc187c2d83328dcbea40ed6857e45b
+b697c0f4b3eabd83454068a2d2aade2b
+747aa8a2e384c8bfafc6fb5533637f64
+-----END OpenVPN Static key V1-----

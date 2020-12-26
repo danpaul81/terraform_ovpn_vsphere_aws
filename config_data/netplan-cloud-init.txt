@@ -1,0 +1,15 @@
+# netplan cloud init file for ubuntu based onprem openvpn client
+# will be infused via cloud-init / user-data
+# modify your settings as needed
+network:
+  ethernets:
+    ens192:
+      addresses:
+      - 192.168.110.2/24
+      gateway4: 192.168.110.1
+      nameservers:
+        addresses:
+        - 192.168.110.10
+        search:
+        - corp.local
+  version: 2
