@@ -8,7 +8,7 @@ users:
     shell: /bin/bash
     ssh_authorized_keys:
 %{ for line in ssh_authorized_keys ~}
-      - ${line})
+      - ${line}
 %{ endfor ~}
 write_files:
   - content: |
