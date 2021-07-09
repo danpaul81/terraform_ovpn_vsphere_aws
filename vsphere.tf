@@ -1,7 +1,7 @@
 provider "vsphere" {
 	user = var.vcenter_user
 	# 1.24.3 did ignore vapp properties, so enforcing 1.24.0
-	version  = "1.24.0"
+	# version  = "1.24.0"
 	password = var.vcenter_password
 	vsphere_server = var.vcenter_server
 	allow_unverified_ssl = true
@@ -64,6 +64,9 @@ resource "vsphere_virtual_machine" "ovpn_client" {
   datacenter_id              = data.vsphere_datacenter.dc.id
   cdrom {
     client_device = true
+  }
+  network_interface {
+    network_id = data.vsphere_network.network.id
   }
   ovf_deploy {
 	remote_ovf_url 		= var.remote_ovf_url
